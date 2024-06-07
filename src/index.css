@@ -10,7 +10,7 @@
     width: auto;
     height: auto;
     margin: auto; 
-    display: block; /* Ensure proper spacing between images */
+    display: block; 
     transition: opacity 3s ease;
   }
   
