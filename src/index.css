@@ -1,13 +1,24 @@
-/* index.css */
-
 .gallery-container {
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    
-}
+    height: 90vh; /* Make the gallery container cover the whole page vertically */
+    overflow: hidden; /* Hide any overflow */
+  }
   
-.sliderimg {
-    width: 100%;
+  .sliderimg {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
     height: auto;
-}
+    margin: auto; /* Center the images horizontally and vertically */
+    display: block; /* Ensure proper spacing between images */
+    transition: opacity 3s ease;
+  }
+  
+  .alice-carousel {
+    height: 100%;
+  }
+  
+  .alice-carousel__wrapper {
+    height: 100%;
+  }
+  
