@@ -6,9 +6,9 @@ import restaurant1 from '../assets/gallery/restaurant/1.jpeg';
 import restaurant2 from '../assets/gallery/restaurant/2.jpeg';
 import rooms1 from '../assets/gallery/rooms/1.jpeg';
 import rooms2 from '../assets/gallery/rooms/2.jpeg';
-import restaurantImage1 from '../assets/restaurentImages/g1.png';
-import restaurantImage2 from '../assets/restaurentImages/g2.png';
-import restaurantImage3 from '../assets/restaurentImages/g3.png';
+import restaurantImage1 from '../assets/gallery/rooms/1.jpeg';
+import restaurantImage2 from '../assets/gallery/rooms/2.jpeg';
+import restaurantImage3 from '../assets/gallery/rooms/3.jpeg';
 import picks4 from '../assets/gallery/picks/4.jpeg';
 
 const Gallery = () => {
@@ -30,7 +30,7 @@ const Gallery = () => {
   return (
     <AliceCarousel
       animationType="fadeout"
-      animationDuration={5000}
+      animationDuration={3000}
       disableButtonsControls
       disableDotsControls
       infinite

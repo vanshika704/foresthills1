@@ -1,6 +1,7 @@
 
 import Gallery from "./pages/backgroundCarousel";
 
+
 function App() {
   return (
     <div>
