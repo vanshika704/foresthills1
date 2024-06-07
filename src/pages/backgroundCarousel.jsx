@@ -1,51 +1,43 @@
 
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import slide1 from "../assets/gallery/restaurant/1.jpeg";
-import slide2 from "../assets/gallery/restaurant/2.jpeg";
-import slide3 from "../assets/gallery/restaurant/3.jpeg";
-import slide4 from "../assets/gallery/restaurant/4.jpeg";
-import slide5 from "../assets/gallery/picks/1.jpeg";
-import slide6 from "../assets/gallery/picks/2.jpeg";
-import slide7 from "../assets/gallery/picks/3.jpeg";
-import slide8 from "../assets/gallery/picks/4.jpeg";
-import "../index.css";
+
+import restaurant1 from '../assets/gallery/restaurant/1.jpeg';
+import restaurant2 from '../assets/gallery/restaurant/2.jpeg';
+import rooms1 from '../assets/gallery/rooms/1.jpeg';
+import rooms2 from '../assets/gallery/rooms/2.jpeg';
+import restaurantImage1 from '../assets/restaurentImages/g1.png';
+import restaurantImage2 from '../assets/restaurentImages/g2.png';
+import restaurantImage3 from '../assets/restaurentImages/g3.png';
+import picks4 from '../assets/gallery/picks/4.jpeg';
 
 const Gallery = () => {
-  const images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8];
+  const items = [
+    restaurant1,
+    restaurant2,
+    rooms1,
+    rooms2,
+    restaurantImage1,
+    restaurantImage2,
+    restaurantImage3,
+    picks4,
+  ];
 
-  const items = images.map((image, index) => (
-    <div key={index}>
-      <img src={image} alt={`Slide ${index + 1}`} className="sliderimg" />
-    </div>
+  const renderedItems = items.map((item, index) => (
+    <img key={index} src={item} alt={`image-${index}`} />
   ));
 
-  const responsive = {
-    0: { items: 1 },
-    600: { items: 1 },
-    1024: { items: 1 },
-  };
-
   return (
-    <div className="gallery-container">
-      <AliceCarousel
-        items={items}
-        responsive={responsive}
-        autoPlay
-        autoPlayInterval={2000}
-        infinite
-        mouseTracking
-        disableButtonsControls
-        disableDotsControls
-        fadeOutAnimation
-        fadeOutDuration={1000}
-        disableAutoPlayOnAction={true}
-        duration={800} 
-        autoPlayStrategy="none"
-        autoWidth 
-       
-      />
-    </div>
+    <AliceCarousel
+      animationType="fadeout"
+      animationDuration={5000}
+      disableButtonsControls
+      disableDotsControls
+      infinite
+      autoPlay
+      mouseTracking
+      items={renderedItems}
+    />
   );
 };
 
