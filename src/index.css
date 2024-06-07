@@ -9,7 +9,7 @@
     max-height: 100%;
     width: auto;
     height: auto;
-    margin: auto; /* Center the images horizontally and vertically */
+    margin: auto; 
     display: block; /* Ensure proper spacing between images */
     transition: opacity 3s ease;
   }
