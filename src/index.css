@@ -1,6 +1,6 @@
 .gallery-container {
     width: 100%;
-    height: 90vh; /* Make the gallery container cover the whole page vertically */
+    height: 70vh; /* Make the gallery container cover the whole page vertically */
     overflow: hidden; /* Hide any overflow */
   }
   
