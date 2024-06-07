@@ -1,8 +1,8 @@
 
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import slide1 from "../assets/homes/1.jpeg";
-import slide2 from "../assets/homes/2.jpeg";
+import slide1 from "../assets/gallery/restaurant/1.jpeg";
+import slide2 from "../assets/gallery/restaurant/2.jpeg";
 import slide3 from "../assets/gallery/restaurant/3.jpeg";
 import slide4 from "../assets/gallery/restaurant/4.jpeg";
 import slide5 from "../assets/gallery/picks/1.jpeg";
