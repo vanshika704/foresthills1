@@ -30,7 +30,7 @@ const Gallery = () => {
     <div className="gallery-container">
       <AliceCarousel
         animationType="fadeout"
-        animationDuration={3000}
+        animationDuration={5000}
         disableButtonsControls
         disableDotsControls
         infinite
