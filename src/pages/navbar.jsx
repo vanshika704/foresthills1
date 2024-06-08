@@ -1,25 +1,21 @@
-
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink } from '@chakra-ui/react';
-import '../index.css';
+import { Tabs, TabList, Tab, TabIndicator } from '@chakra-ui/react';
+import "../index.css";
 
 function NavBar() {
-  return (
-    <div className='navbar'>
-      <Breadcrumb spacing='8px'>
-        <BreadcrumbItem>
-          <BreadcrumbLink href='#'>Home</BreadcrumbLink>
-        </BreadcrumbItem>
-      
-        <BreadcrumbItem>
-          <BreadcrumbLink href='#'>About</BreadcrumbLink>
-        </BreadcrumbItem>
-      
-        <BreadcrumbItem isCurrentPage>
-          <BreadcrumbLink href='#'>Contact</BreadcrumbLink>
-        </BreadcrumbItem>
-      </Breadcrumb>
-    </div>
-  );
+    return (
+        <div className='navbar'>
+            <Tabs position='relative' variant='unstyled' height={5}>
+                <TabList>
+                    <Tab paddingY={1} paddingX={3}>Home</Tab>
+                    <Tab paddingY={1} paddingX={3}>Restaurants</Tab>
+                    <Tab paddingY={1} paddingX={3}>Rooms</Tab>
+                    <Tab paddingY={1} paddingX={3}>Gallery</Tab>
+                    <Tab paddingY={1} paddingX={3}>About</Tab>
+                </TabList>
+                <TabIndicator mt='-1.5px' height='2px' bg='green.500' borderRadius='1px' />
+            </Tabs>
+        </div>
+    );
 }
 
 export default NavBar;
