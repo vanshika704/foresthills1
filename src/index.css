@@ -34,17 +34,31 @@ body {
 }
 
 
-.gallery-button {
+.gallery-button1 {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: rgb(243, 239, 239);
+  color: rgb(103, 119, 59);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+}
+.gallery-button2 {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(103, 119, 59);
+  color: rgb(250, 250, 249);
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  font-weight: bold;
 }
 
 .gallery-button:hover {
