@@ -1,7 +1,7 @@
 
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-
+import "../index.css";
 import restaurant1 from '../assets/gallery/restaurant/1.jpeg';
 import restaurant2 from '../assets/gallery/restaurant/2.jpeg';
 import rooms1 from '../assets/gallery/rooms/1.jpeg';
