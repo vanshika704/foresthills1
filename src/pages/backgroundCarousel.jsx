@@ -39,8 +39,9 @@ const Gallery = () => {
         items={renderedItems}
       />
       <div className="overlay-content">
-        <h1>Gallery Title</h1>
-        <p>Description text goes here. You can add more details about the images or the gallery.</p>
+        <div className='companyname'>ForestHill</div>
+        <div className='discover'>Discover Tranquil Luxury: A Mountain Retreat in the Heart of Nature&apos;s Embrace</div>
+
         <button className="gallery-button">Button 1</button>
         <button className="gallery-button">Button 2</button>
       </div>

@@ -1,3 +1,7 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .gallery-container {
   position: relative;
   width: 100%;
@@ -21,6 +25,7 @@
   text-align: center;
   color: white;
   z-index: 10; /* Ensure it's above the carousel */
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
 }
 
 .gallery-button {
@@ -33,6 +38,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
 }
 
 .gallery-button:hover {
@@ -54,6 +60,7 @@
   z-index: 1000; /* Ensures the navbar is above other content */
   border-radius: 20px; /* Curved sides */
   margin-top: 40px;
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
 }
 
 .navbar ul {
@@ -70,8 +77,18 @@
   color: grey;
   display: flex;
   align-items: center;
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
 }
 
 .tab-item svg {
   margin-right: 8px;
+}
+.companyname{
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif; 
+  margin-top: 70px;
+}
+.discover{
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif; 
 }
