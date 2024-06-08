@@ -9,24 +9,24 @@ function NavBar() {
         <div className='navbar'>
             <Tabs position='relative' variant='unstyled' height={5} width={70}>
                 <TabList>
-                    <Tab paddingY={1} paddingX={3}>
-                        <FaHome style={{ marginRight: '8px' }} />
+                    <Tab className="tab-item" paddingY={1} paddingX={3}>
+                        <FaHome />
                         Home
                     </Tab>
-                    <Tab paddingY={1} paddingX={3}>
-                        <FaUtensils style={{ marginRight: '8px' }} />
+                    <Tab className="tab-item" paddingY={1} paddingX={3}>
+                        <FaUtensils />
                         Restaurants
                     </Tab>
-                    <Tab paddingY={1} paddingX={3}>
-                        <FaBed style={{ marginRight: '8px' }} />
+                    <Tab className="tab-item" paddingY={1} paddingX={3}>
+                        <FaBed />
                         Rooms
                     </Tab>
-                    <Tab paddingY={1} paddingX={3}>
-                        <FaImages style={{ marginRight: '8px' }} />
+                    <Tab className="tab-item" paddingY={1} paddingX={3}>
+                        <FaImages />
                         Gallery
                     </Tab>
-                    <Tab paddingY={1} paddingX={3}>
-                        <FaInfoCircle style={{ marginRight: '8px' }} />
+                    <Tab className="tab-item" paddingY={1} paddingX={3}>
+                        <FaInfoCircle />
                         About
                     </Tab>
                 </TabList>

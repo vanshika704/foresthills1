@@ -49,3 +49,12 @@
 .navbar ul li {
   cursor: pointer;
 }
+.tab-item {
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+.tab-item svg {
+  margin-right: 8px;
+}
+
