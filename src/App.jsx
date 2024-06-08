@@ -1,10 +1,11 @@
 
 import Gallery from "./pages/backgroundCarousel";
+import NavBar from "./pages/navbar";
 
 
 function App() {
   return (
-    <div>
+    <div><NavBar/>
       <Gallery />
     </div>
   );
