@@ -42,8 +42,8 @@ const Gallery = () => {
         <div className='companyname'>ForestHill</div>
         <div className='discover'>Discover Tranquil Luxury: A Mountain Retreat in the Heart of Nature&apos;s Embrace</div>
 
-        <button className="gallery-button">Button 1</button>
-        <button className="gallery-button">Button 2</button>
+        <button className="gallery-button1">Button 1</button>
+        <button className="gallery-button2">Button 2</button>
       </div>
     </div>
   );
