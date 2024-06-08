@@ -39,7 +39,7 @@ const Gallery = () => {
         items={renderedItems}
       />
       <div className="overlay-content">
-        <div className='companyname'>ForestHill</div>
+        <div className='companyname'>Forest Hill</div>
         <div className='discover'>Discover Tranquil Luxury: A Mountain Retreat in the Heart of Nature&apos;s Embrace</div>
 
         <button className="gallery-button1">Button 1</button>
