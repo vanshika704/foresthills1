@@ -26,7 +26,13 @@ body {
   color: white;
   z-index: 10; /* Ensure it's above the carousel */
   font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  width: 80%; /* Set a width to limit the text */
+  max-width: 1000px; /* Optionally limit the maximum width */
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for overflow */
 }
+
 
 .gallery-button {
   display: inline-block;
@@ -89,6 +95,6 @@ body {
   margin-top: 70px;
 }
 .discover{
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Poppins', sans-serif; 
 }
