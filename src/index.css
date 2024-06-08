@@ -37,6 +37,7 @@
   z-index: 1000; /* Ensures the navbar is above other content */
   border-radius: 20px; /* Curved sides */
   margin-top: 40px;
+  width: 550px;
 }
 
 .navbar ul {
