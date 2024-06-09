@@ -34,7 +34,7 @@ body {
   max-width: 1000px;
   /* Optionally limit the maximum width */
   white-space: nowrap;
-  /* Prevent line breaks */
+ 
   overflow: hidden;
  
   text-overflow: ellipsis;
