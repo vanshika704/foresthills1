@@ -30,7 +30,7 @@ body {
   font-family: 'Poppins', sans-serif;
   /* Apply Poppins font */
   width: 80%;
-  /* Set a width to limit the text */
+ 
   max-width: 1000px;
  
   white-space: nowrap;
