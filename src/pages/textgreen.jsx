@@ -1,4 +1,4 @@
 function Textgreen (){
-    return (<></>)
+    return (<><div className="textgreen"></div></>)
 }
 export default Textgreen;
