@@ -38,7 +38,7 @@ body {
   overflow: hidden;
   /* Hide overflowing text */
   text-overflow: ellipsis;
-  /* Add ellipsis for overflow */
+
 }
 
 
