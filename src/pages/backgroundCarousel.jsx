@@ -9,6 +9,7 @@ import restaurantImage1 from '../assets/gallery/rooms/1.jpeg';
 import restaurantImage2 from '../assets/gallery/rooms/2.jpeg';
 import restaurantImage3 from '../assets/gallery/rooms/3.jpeg';
 import picks4 from '../assets/gallery/picks/4.jpeg';
+import NavBar from './navbar';
 
 const Gallery = () => {
   const items = [
@@ -39,6 +40,7 @@ const Gallery = () => {
         items={renderedItems}
       />
       <div className="overlay-content">
+      <NavBar/>
         <div className='companyname'>Forest Hill</div>
         <div className='discover'>Discover Tranquil Luxury: A Mountain Retreat in the Heart of Nature&apos;s Embrace</div>
 
