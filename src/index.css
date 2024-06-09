@@ -32,7 +32,7 @@ body {
   width: 80%;
   /* Set a width to limit the text */
   max-width: 1000px;
-  /* Optionally limit the maximum width */
+ 
   white-space: nowrap;
  
   overflow: hidden;
