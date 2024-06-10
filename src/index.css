@@ -153,9 +153,9 @@ body {
   margin-top: 60px;
 }
 .button3 {
-  display: inline-flex; /* Use inline-flex to make the button and its content inline */
-  align-items: center; /* Align content vertically */
-  gap: 8px; /* Adjust the space between icon and text */
+  display: inline-flex; 
+  align-items: center; 
+  gap: 8px; 
   margin: 10px;
   padding: 10px 20px;
   background-color: rgb(70, 82, 38);
