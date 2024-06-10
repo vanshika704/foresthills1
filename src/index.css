@@ -167,5 +167,25 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
 }
-
+.flavours{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 1800px;
+  width: 1320px;
+  background-color: rgb(242, 245, 242);
+  border-radius: 10px;
+  padding: 50px 50px 0 50px; /* 50px padding on top, left, and right, 0 on bottom */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.text4{
+  color: rgb(70, 82, 38);
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 790;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
 

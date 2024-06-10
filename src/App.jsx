@@ -1,5 +1,6 @@
 
 import Gallery from "./pages/backgroundCarousel";
+import Flavours from "./pages/flavours";
 
 import Textgreen from "./pages/textgreen";
 
@@ -9,6 +10,7 @@ function App() {
   
       <Gallery />
       <Textgreen/>
+      <Flavours/>
     </div>
   );
 }
