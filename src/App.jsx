@@ -1,6 +1,7 @@
 
 import Gallery from "./pages/backgroundCarousel";
 import Flavours from "./pages/flavours";
+import Roomscape from "./pages/Roomscape";
 
 import Textgreen from "./pages/textgreen";
 
@@ -11,6 +12,7 @@ function App() {
       <Gallery />
       <Textgreen/>
       <Flavours/>
+      <Roomscape/>
     </div>
   );
 }
