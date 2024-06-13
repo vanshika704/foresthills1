@@ -186,21 +186,36 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 795;
   margin-bottom: 10px;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-left: 65px;
 }
 .listflavours {
   width: 100%;
+  margin-left: 65px;
+  padding: auto;
 }
 
 .flavourlist {
   list-style: none; 
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
-  display: flex; /* Display as a row */
+  padding: 0; 
+  margin: 0; 
+
   
 
 }
 
+
 .flavourlist li {
-  margin-right: 10px; /* Add spacing between items */
+  margin-right: 10px;
+  display: flex;
+  align-items: center; 
+  margin-top: 20px;
+  padding: auto;
+  font-size: 18px; 
+  color: rgb(70, 82, 38);
+  font-family: 'Poppins', sans-serif;
+}
+.icon {
+  margin-right: 10px; 
+
 }
