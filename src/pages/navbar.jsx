@@ -1,7 +1,5 @@
-
 import { Tabs, TabList, Tab, TabIndicator } from '@chakra-ui/react';
 import "../index.css";
-
 import { FaHome, FaUtensils, FaBed, FaImages, FaInfoCircle } from 'react-icons/fa';
 
 function NavBar() {

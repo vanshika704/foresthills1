@@ -10,6 +10,7 @@ function Flavours() {
             <li>
               <FaSmog color=" rgb(70, 82, 38)" />
             </li>
+            
           </ul>
         </div>
       </div>
