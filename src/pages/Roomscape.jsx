@@ -1,4 +1,4 @@
 function Roomscape(){
-    return(<><div className="Roomscape">&quot;&quot;Roomscape&quot;&quot;</div></>)
+    return(<><div className="roomscape"><div className="Roomscape">&quot; Roomscape &quot;</div></div></>)
 }
 export default Roomscape; 

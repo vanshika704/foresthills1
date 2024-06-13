@@ -172,8 +172,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 1800px;
-  width: 1320px;
+  height: 500px;
+  width: 1350px;
   background-color: rgb(242, 245, 242);
   border-radius: 10px;
   padding: 50px 50px 0 50px; 
@@ -222,7 +222,15 @@ body {
 }
 .Roomscape{
   justify-content: center;
-  margin-left: 100px;
+  margin-left: 500px;
   color: rgb(70, 82, 38);
   font-family: 'Poppins', sans-serif;
+
+}
+.roomscape{
+  height: 600px;
+  width: 1350px;
+  background-color: rgb(242, 245, 242);
+  font-size: xx-large;
+  font-weight: bolder;
 }
