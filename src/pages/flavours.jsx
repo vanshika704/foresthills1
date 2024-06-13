@@ -8,7 +8,7 @@ function Flavours() {
         <div className="listflavours">
           <ul className="flavourlist">
             <li>
-              <FaSmog color=" rgb(70, 82, 38)" />
+              <FaSmog color=" rgb(70, 82, 38)" />Crafting Culinary Magic, Helmed by Our Maestro Chef.
             </li>
             
           </ul>

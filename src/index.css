@@ -193,7 +193,7 @@ body {
 }
 
 .flavourlist {
-  list-style: none; /* Remove bullets */
+  list-style: none; 
   padding: 0; /* Remove default padding */
   margin: 0; /* Remove default margin */
   display: flex; /* Display as a row */
