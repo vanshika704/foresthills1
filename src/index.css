@@ -127,7 +127,7 @@ body {
   width: 1350px;
   background-color: rgb(181, 216, 174);
   border-radius: 10px;
-  padding: 50px 50px 0 50px; /* 50px padding on top, left, and right, 0 on bottom */
+  padding: 50px 50px 0 50px; 
   box-sizing: border-box;
 }
 
