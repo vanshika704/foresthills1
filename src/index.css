@@ -165,7 +165,7 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
+  font-weight: 100;
 }
 .flavours{
   display: flex;
@@ -193,6 +193,7 @@ body {
   width: 100%;
   margin-left: 65px;
   padding: auto;
+  display: flex;
 }
 
 .flavourlist {

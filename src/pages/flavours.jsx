@@ -2,6 +2,8 @@ import { GrGallery } from "react-icons/gr";
 import { LuChefHat } from "react-icons/lu";
 import { FaBellConcierge } from "react-icons/fa6";
 import { LuMenu } from "react-icons/lu";
+import g1 from '../assets/restaurentImages/g1.png';  // Import the image
+
 function Flavours() {
   return (
     <>
@@ -25,7 +27,13 @@ function Flavours() {
               <GrGallery color="rgb(70, 82, 38)" size={25} className="icon" />
               Nature&#39;s Canvas Unveiled: Panoramic Views Through Our Enchanting Windows.
             </li>
+            <li>
+              <button className="button3">
+                <FaBellConcierge color="white" />Flavours
+              </button>
+            </li>
           </ul>
+          <img src={g1} alt="Restaurant"  style={{ width: 350,  height:250, marginLeft: 30} } />
         </div>
       </div>
     </>
