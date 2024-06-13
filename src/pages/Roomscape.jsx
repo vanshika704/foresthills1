@@ -10,13 +10,13 @@ const theme = extendTheme({
   components: {
     Card: {
       baseStyle: {
-        rounded: 'md', // Medium rounded corners
+        rounded: 'md', 
         overflow: 'hidden',
-        fontSize: '20px', // Increase the size
-        cursor: 'pointer', // Make the card look clickable
-        boxShadow: 'lg', // Add shadow to the cards
+        fontSize: '20px', 
+        cursor: 'pointer',
+        boxShadow: 'xl', 
         _hover: {
-          transform: 'scale(1.05)', // Slightly enlarge card on hover
+          transform: 'scale(1.05)', 
           transition: 'transform 0.2s ease-in-out',
         },
       },
