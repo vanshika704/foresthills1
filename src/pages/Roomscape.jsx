@@ -14,6 +14,7 @@ const theme = extendTheme({
         overflow: 'hidden',
         fontSize: '20px', // Increase the size
         cursor: 'pointer', // Make the card look clickable
+        boxShadow: 'lg', // Add shadow to the cards
         _hover: {
           transform: 'scale(1.05)', // Slightly enlarge card on hover
           transition: 'transform 0.2s ease-in-out',
@@ -40,34 +41,34 @@ function Roomscape() {
         <div className="Roomscape">&quot;Roomscape&quot;</div>
         <div className="line2">&quot;Five Rooms, Five Worlds: Tailored Experiences Awaits Your Stay.&quot;</div>
         <div className="Roomtypes">
-          <SimpleGrid spacing={4} templateColumns='repeat(auto-fill, minmax(240px, 1fr))'>
-            <Box as={Link} to='/family-room'>
+          <SimpleGrid spacing={6} templateColumns='repeat(3, 1fr)'>
+            <Box as={Link} to='/family-room' maxW='400px'>
               <Card>
                 <CardBody>
-                  <Image src='src/assets/rooms/family/mainpicfamilyroom.jpeg' alt='Family Room' />
-                  <Heading size='md'>Family Room</Heading>
-                  <Text>4 People Occupancy</Text>
-                  <Text>Rollaway bed</Text>
+                  <Image src='src/assets/rooms/family/mainpicfamilyroom.jpeg' alt='Family Room' boxSize='350px' objectFit='cover' />
+                  <Heading size='lg'>Family Room</Heading>
+                  <Text fontSize='lg'>4 People Occupancy</Text>
+                  <Text fontSize='lg'>Rollaway bed</Text>
                 </CardBody>
               </Card>
             </Box>
-            <Box as={Link} to='/friends-room'>
+            <Box as={Link} to='/friends-room' maxW='400px'>
               <Card>
                 <CardBody>
-                  <Image src='src/assets/rooms/friend/1.png' alt='Friends Room' />
-                  <Heading size='md'>Friends Room</Heading>
-                  <Text>2 People Occupancy</Text>
-                  <Text>Rollaway bed</Text>
+                  <Image src='src/assets/rooms/friend/1.png' alt='Friends Room' boxSize='350px' objectFit='cover' />
+                  <Heading size='lg'>Friends Room</Heading>
+                  <Text fontSize='lg'>2 People Occupancy</Text>
+                  <Text fontSize='lg'>Rollaway bed</Text>
                 </CardBody>
               </Card>
             </Box>
-            <Box as={Link} to='/couple-room'>
+            <Box as={Link} to='/couple-room' maxW='400px'>
               <Card>
                 <CardBody>
-                  <Image src='src/assets/rooms/couple/4.png' alt='Couple Room' />
-                  <Heading size='md'>Couple Room</Heading>
-                  <Text>2 People Occupancy</Text>
-                  <Text>Rollaway bed</Text>
+                  <Image src='src/assets/rooms/couple/4.png' alt='Couple Room' boxSize='350px' objectFit='cover' />
+                  <Heading size='lg'>Couple Room</Heading>
+                  <Text fontSize='lg'>2 People Occupancy</Text>
+                  <Text fontSize='lg'>Rollaway bed</Text>
                 </CardBody>
               </Card>
             </Box>
