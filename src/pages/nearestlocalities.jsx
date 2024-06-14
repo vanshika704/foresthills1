@@ -1,4 +1,4 @@
 function Nearest (){
-    return (<div className="Nearest"></div>)
+    return (<div className="nearest"></div>)
 }
 export default Nearest;
