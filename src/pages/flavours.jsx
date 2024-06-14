@@ -3,8 +3,6 @@ import { LuChefHat } from "react-icons/lu";
 import { FaBellConcierge } from "react-icons/fa6";
 import { LuMenu } from "react-icons/lu";
 import g1 from '../assets/restaurentImages/g1.png';  
-
-
 function Flavours() {
   return (
     <>
