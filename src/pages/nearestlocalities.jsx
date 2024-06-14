@@ -1,6 +1,6 @@
 function Nearest (){
     return (<div className="nearest">
-        <div>Nearest Localities</div>
+        <div className="Nearest">Nearest Localities</div>
     </div>)
 }
 export default Nearest;
