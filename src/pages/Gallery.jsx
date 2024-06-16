@@ -1,4 +1,6 @@
+import NavBar from "./navbar";
+
 function GaLLery (){
-    return (<>hello</>)
+    return (<><div className="Gallerynavbar"><NavBar/></div></>)
 }
 export default GaLLery;

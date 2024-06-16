@@ -1,10 +1,10 @@
+import NavBar from "./navbar";
 
 
 function Restaurant() {
-    return (
-        <div className="roomscape">
-            Discover the Soul of Our Restaurant
-        </div>
+    return (<div className="restaurantnavbar"><NavBar/>
+      </div>
+        
     );
 }
 
