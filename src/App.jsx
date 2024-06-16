@@ -1,24 +1,26 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import Gallery from "./pages/backgroundCarousel";
-import Flavours from "./pages/flavours";
-import GreenLast from "./pages/greenlast";
+import Home from './pages/home';
+import Restaurant from './pages/restaurant';
+import Rooms from './pages/Rooms';
 
-import Nearest from "./pages/nearestlocalities";
-import Roomscape from "./pages/Roomscape";
-
-import Textgreen from "./pages/textgreen";
+import About from './pages/About';
+import GaLLery from './pages/Gallery';
 
 function App() {
   return (
-    <div>
-  
-      <Gallery />
-      <Textgreen/>
-      <Flavours/>
-      <Roomscape/>
-      <Nearest/>
-   <GreenLast/>
-    </div>
+    <Router>
+      <div>
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/restaurant" element={<Restaurant />} />
+          <Route path="/rooms" element={<Rooms />} />
+          <Route path="/gallery" element={<GaLLery/>} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
