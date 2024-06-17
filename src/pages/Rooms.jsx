@@ -1,6 +1,5 @@
 import NavBar from "./navbar";
-
 function Rooms (){
-    return (<><div className="roomsnavbar"></div><NavBar/></>)
+    return (<><NavBar className="navbarroom"/></>)
 }
 export default Rooms;
