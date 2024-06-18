@@ -1,6 +1,6 @@
 import NavBar from "./navbar";
 
 function About (){
-    return (<><div className="aboutnavbar"><NavBar/></div></>)
+    return (<><NavBar className="custom-navbar" /></>)
 }
 export default About;
