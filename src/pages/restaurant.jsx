@@ -55,7 +55,10 @@ function Restaurant() {
            </div>
           
           
-           </div> <div className='resttax'>Feast Your Eyes</div><div className='restlastimg'></div>  </>
+           </div> <div className='resttax'>Feast Your Eyes</div><div className='restlastimg'><img className='restaurantimage' src='src/assets/gallery/restaurant/1.jpeg' height={100} width={250}></img>
+           <img className='restaurantimage' src='src/assets/gallery/restaurant/2.jpeg' height={100} width={250}></img>
+           <img className='restaurantimage' src='src/assets/gallery/restaurant/3.jpeg' height={100} width={250}></img>
+           <img className='restaurantimage' src='src/assets/gallery/restaurant/4.jpeg' height={100} width={250}></img></div>  </>
     );
 }
 
