@@ -2,7 +2,11 @@ import { Tabs, TabList, Tab, TabIndicator } from '@chakra-ui/react';
 import { FaHome, FaUtensils, FaBed, FaImages, FaInfoCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import "../index.css";
-
+import { LuChefHat } from "react-icons/lu";
+import { FaBellConcierge } from "react-icons/fa6";
+import { CgPlayListCheck } from "react-icons/cg";
+import { IoPeople } from "react-icons/io5";
+import { RiGalleryLine } from "react-icons/ri";
 function Restaurant() {
     return (
         <>
@@ -38,8 +42,17 @@ function Restaurant() {
             </div>
             <div className="imageandtext">
                 <img className='Imagerest' src="src/assets/gallery/restaurant/1.jpeg" alt="Restaurant Image" height={400} width={500} />
-            </div>
-        </>
+           <div className='lists'><div className='boldtext'><LuChefHat />Professional Chef</div>
+            <div className='nobold'>Our culinary team is led by a highly skilled and professional chef.</div>
+            <div className='boldtext'><FaBellConcierge />Cuisine Offerings</div>
+           <div className='nobold'>We specialize in diverse cuisines, including Indian, Himachali, and Chinese</div>
+           <div className='boldtext'><CgPlayListCheck />Ordering Convenience:</div>
+           <div className='nobold'>Enjoy the ease of ordering from our menu, designed to cater to your culinary preferences.</div>
+           <div className='boldtext'><IoPeople />Seating Capacity</div> 
+           <div className='nobold'>With a spacious setting, our restaurant offers seating for 40+, ensuring a dining experience.</div>
+           <div className='boldtext'><RiGalleryLine />Scenic Ambiance</div>
+           <div className='nobold'>Take in the natural beauty through our expansive windows, providing a view of the nature.</div>
+           </div></div> </>
     );
 }
 

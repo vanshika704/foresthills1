@@ -324,3 +324,114 @@ background-color:  rgb(70, 82, 38) ;
 .imageandtext {
   display: flex;
 }
+@media screen and (max-width: 1600px) {
+  .roomscape,
+  .nearest,
+  .greenLast {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Roomscape,
+  .nearest {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .companyname {
+    font-size: 50px;
+  }
+  
+  .navbar,
+  .navbar1 {
+    width: 90%;
+  }
+  
+  .Roomscape,
+  .nearest {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .companyname {
+    font-size: 40px;
+  }
+  
+  .navbar,
+  .navbar1 {
+    width: 100%;
+  }
+  
+  .Roomscape,
+  .nearest {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .companyname {
+    font-size: 30px;
+  }
+  
+  .roomscape,
+  .nearest,
+  .greenLast {
+    padding: 20px;
+  }
+  
+  .navbar,
+  .navbar1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .tab-item {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .companyname {
+    font-size: 25px;
+  }
+  
+  .overlay-content {
+    top: 20%;
+  }
+}
+.boldtext{
+  font-size: 18px;
+  font-weight: 500;
+  color:  rgb(70, 82, 38);
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+
+}
+.boldtext > svg {
+  margin-right: 10px; 
+}
+.nobold{
+  font-size: 15px;
+  font-weight: 500;
+  color:  rgb(70, 82, 38);
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.lists{
+  margin-left: 30px;
+  margin-top: 40px;
+}
