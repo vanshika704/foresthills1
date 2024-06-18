@@ -289,9 +289,9 @@ background-color:  rgb(70, 82, 38) ;
 .resttax{
   font-size: xx-large;
   font-weight: 800;
-  color: rgb(84, 97, 44);
+  color: rgb(61, 71, 29);
   font-family: 'Poppins', sans-serif;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 .navbar1 {
@@ -419,7 +419,18 @@ background-color:  rgb(70, 82, 38) ;
   display: flex;
   align-items: center;
   font-family: 'Poppins', sans-serif;
+  margin-left: 50px;
 
+}
+.boldtext1{
+  font-size: 25px;
+  font-weight: 600;
+  color:  rgb(70, 82, 38);
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 80px;
+  margin-bottom: 20px;
 }
 .boldtext > svg {
   margin-right: 10px; 
@@ -430,6 +441,7 @@ background-color:  rgb(70, 82, 38) ;
   color:  rgb(70, 82, 38);
   margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
+  margin-left: 50px;
 }
 .restlastimg{
   display: flex;
