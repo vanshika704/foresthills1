@@ -52,7 +52,10 @@ function Restaurant() {
            <div className='nobold'>With a spacious setting, our restaurant offers seating for 40+, ensuring a dining experience.</div>
            <div className='boldtext'><RiGalleryLine />Scenic Ambiance</div>
            <div className='nobold'>Take in the natural beauty through our expansive windows, providing a view of the nature.</div>
-           </div></div> </>
+           </div>
+          
+          
+           </div> <div className='resttax'>Feast Your Eyes</div><div className='restlastimg'></div>  </>
     );
 }
 

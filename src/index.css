@@ -295,12 +295,12 @@ background-color:  rgb(70, 82, 38) ;
   margin-left: 50px;
 }
 .navbar1 {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   width: 550px;
-  margin-bottom: 300px;
+  margin-bottom: 50px;
   background-color: rgba(247, 241, 241, 0.7);
   color: white;
   padding: 1rem;
@@ -430,6 +430,9 @@ background-color:  rgb(70, 82, 38) ;
   color:  rgb(70, 82, 38);
   margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
+}
+.restlastimg{
+  display: flex;
 }
 .lists{
   margin-left: 30px;
