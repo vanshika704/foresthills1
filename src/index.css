@@ -431,6 +431,7 @@ background-color:  rgb(70, 82, 38) ;
   font-family: 'Poppins', sans-serif;
   margin-left: 80px;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 .boldtext > svg {
   margin-right: 10px; 
@@ -447,7 +448,7 @@ background-color:  rgb(70, 82, 38) ;
   display: flex;
 }
 .lists{
-  margin-left: 30px;
+  margin-left: 10px;
   margin-top: 40px;
 }
 .restaurantimage{
