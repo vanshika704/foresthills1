@@ -69,6 +69,25 @@ function Friends(){
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/friend/3.png' alt='Family Room' className='grid-image' /></GridItem>
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/friend/4.png' alt='Family Room' className='grid-image' /></GridItem>
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/friend/5.png' alt='Family Room' className='grid-image' /></GridItem>
-        </Grid></div></>)
+        </Grid></div>
+        <div className='lefttext'>
+        <div className='boldtext1'>Enhancing</div>
+        <div className='boldtext1'>Your Stay with Distinctive Features</div>
+        <div className='boldtext1'>(Medium Rooms)</div>
+
+        <div className='nobold1'>
+        Only 3 Friends Retreat Rooms are available, so book your cozy escape now.
+          <br /><Spacer height={5}/>
+          Perfect for duos, our Friends Retreat Room welcomes up to 2 guests.
+          <br /><Spacer height={5}/>
+          Indulge in the ease of room service, with charges applicable for added convenience.
+          <br /><Spacer height={5}/>
+          Enjoy breathtaking surroundings with picturesque views right from your room.
+          <br /><Spacer height={5}/>
+          Additional mattresses are available upon request to ensure a comfortable stay for everyone.
+          <br /><Spacer height={5}/>
+          Experience a cozy seating area with wooden chairs for comfort. </div>
+          
+      </div></>)
 }
 export default Friends;

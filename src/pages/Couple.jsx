@@ -68,6 +68,25 @@ function Couple(){
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/couple/3.png' alt='Family Room' className='grid-image' /></GridItem>
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/couple/4.png' alt='Family Room' className='grid-image' /></GridItem>
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/couple/5.png' alt='Family Room' className='grid-image' /></GridItem>
-        </Grid></div></>)
+        </Grid></div>
+        <div className='lefttext'>
+        <div className='boldtext1'>Elevating</div>
+        <div className='boldtext1'>Your Retreat with Unique Touches</div>
+        <div className='boldtext1'>(Small Rooms)</div>
+
+        <div className='nobold1'>
+        A snug haven crafted for two, where comfort meets closeness.
+          <br /><Spacer height={5}/>
+          Immerse in the ambiance of wooden elegance within the confines of your room.
+          <br /><Spacer height={5}/>
+          Stay effortlessly linked with complimentary WiFi services at your fingertips.
+          <br /><Spacer height={5}/>
+          Experience cozy luxury that won&apos;t break the bank
+          <br /><Spacer height={5}/>
+          Additional mattresses are available upon request to ensure a comfortable stay for everyone.
+          <br /><Spacer height={5}/>
+          Experience a cozy seating area with wooden chairs for comfort.</div>
+         
+      </div></>)
 }
 export default Couple;
