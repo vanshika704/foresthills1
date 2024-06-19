@@ -40,7 +40,7 @@ function Rooms() {
       <div className="typesroomsbar">
         <Tabs position="relative" variant="unstyled" height={5} width={40}>
           <TabList>
-            <Tab as={Link} to="/" className="tab-item1" paddingY={1} paddingX={3}>
+            <Tab as={Link} to="/rooms" className="tab-item1" paddingY={1} paddingX={3}>
               <MdFamilyRestroom />
               <Spacer width="20px" />
               Family
@@ -68,13 +68,16 @@ function Rooms() {
           templateColumns="repeat(4, 1fr)"
           gap={4}
         >
-          <GridItem borderRadius={20} rowSpan={2} colSpan={2} bg="tomato" />
-          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
-          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
-          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
-          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
+          <GridItem borderRadius="20px" rowSpan={2} colSpan={2} bg="tomato">
+            <img src='src/assets/rooms/family/mainpicfamilyroom.jpeg' alt='Family Room' className='grid-image' />
+          </GridItem>
+          <GridItem borderRadius="20px" colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/family/PIC 1.png' alt='Family Room' className='grid-image' /></GridItem>
+          <GridItem borderRadius="20px" colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/family/PIC 2.png' alt='Family Room' className='grid-image' /></GridItem>
+          <GridItem borderRadius="20px" colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/family/PIC 3.png' alt='Family Room' className='grid-image' /></GridItem>
+          <GridItem borderRadius="20px" colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/family/PIC4.jpeg' alt='Family Room' className='grid-image' /></GridItem>
         </Grid>
       </div>
+    {/* <div className='flavours'></div> */}
     </>
   );
 }
