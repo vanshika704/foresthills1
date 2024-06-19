@@ -7,6 +7,7 @@ import { FaBellConcierge } from "react-icons/fa6";
 import { CgPlayListCheck } from "react-icons/cg";
 import { IoPeople } from "react-icons/io5";
 import { RiGalleryLine } from "react-icons/ri";
+import GreenLast from './greenlast';
 function Restaurant() {
     return (
         <>
@@ -58,7 +59,7 @@ function Restaurant() {
            </div> <div className='resttax'>Feast Your Eyes</div><div className='restlastimg'><img className='restaurantimage' src='src/assets/gallery/restaurant/1.jpeg' height={100} width={250}></img>
            <img className='restaurantimage' src='src/assets/gallery/restaurant/2.jpeg' height={100} width={250}></img>
            <img className='restaurantimage' src='src/assets/gallery/restaurant/3.jpeg' height={100} width={250}></img>
-           <img className='restaurantimage' src='src/assets/gallery/restaurant/4.jpeg' height={100} width={250}></img></div>  </>
+           <img className='restaurantimage' src='src/assets/gallery/restaurant/4.jpeg' height={100} width={250}></img></div> <GreenLast/> </>
     );
 }
 

@@ -63,11 +63,11 @@ function Couple(){
           templateColumns="repeat(4, 1fr)"
           gap={4}
         >
-          <GridItem borderRadius={20} rowSpan={2} colSpan={2} bg="tomato" />
-          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
-          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
-          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
-          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
+          <GridItem borderRadius={20} rowSpan={2} colSpan={2} bg="tomato" ><img src='src/assets/rooms/couple/1.png' alt='Family Room' className='grid-image' /></GridItem>
+          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/couple/2.png' alt='Family Room' className='grid-image' /></GridItem>
+          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/couple/3.png' alt='Family Room' className='grid-image' /></GridItem>
+          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/couple/4.png' alt='Family Room' className='grid-image' /></GridItem>
+          <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" ><img src='src/assets/rooms/couple/5.png' alt='Family Room' className='grid-image' /></GridItem>
         </Grid></div></>)
 }
 export default Couple;
