@@ -3,8 +3,13 @@ import { FaHome, FaUtensils, FaBed, FaImages, FaInfoCircle, FaUserFriends } from
 import { MdFamilyRestroom } from 'react-icons/md';
 import { IoMdHeart } from 'react-icons/io';
 import { Link } from 'react-router-dom';
-import '../index.css'; // Assuming you have some custom CSS for the classes used
+import '../index.css'; 
 import { Grid, GridItem } from '@chakra-ui/react';
+import { FaWifi } from "react-icons/fa";
+
+import { LuBed } from "react-icons/lu";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaRegCalendarCheck } from "react-icons/fa";
 function Friends(){
     return(<> <div className="navbar1">
         <Tabs position="relative" variant="unstyled" height={5} width={70}>
@@ -88,6 +93,16 @@ function Friends(){
           <br /><Spacer height={5}/>
           Experience a cozy seating area with wooden chairs for comfort. </div>
           
-      </div></>)
+      </div> <div className="card">
+      <h1>₹ 2,500</h1>
+      <h2>Night</h2>
+      <p><FaWifi className="icon" /> Wifi Included</p>
+      <p> 2 members Allowed</p>
+      <p><LuBed className="icon" /> Duo Delight Retreats</p>
+      <div className="buttons">
+        <button className="button book-now"><FaRegCalendarCheck className="icon" /> Book Now</button>
+        <button className="button more-info"><FaWhatsapp className="icon" /> Contact Us</button>
+      </div>
+    </div></>)
 }
 export default Friends;

@@ -3,8 +3,12 @@ import { FaHome, FaUtensils, FaBed, FaImages, FaInfoCircle, FaUserFriends } from
 import { MdFamilyRestroom } from 'react-icons/md';
 import { IoMdHeart } from 'react-icons/io';
 import { Link } from 'react-router-dom';
-import '../index.css'; // Assuming you have some custom CSS for the classes used
-
+import '../index.css';
+import { FaWifi } from "react-icons/fa";
+import { PiNumberFourBold } from "react-icons/pi";
+import { LuBed } from "react-icons/lu";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaRegCalendarCheck } from "react-icons/fa";
 function Rooms() {
   return (
     <>
@@ -104,6 +108,18 @@ function Rooms() {
          <div className='boldtext1'>Need extra sleeping arrangements? Additional mattresses are<br/> available to ensure a comfortable stay for everyone.</div> 
           <Spacer height={5}/> 
       </div>
+      <div className="card">
+      <h1>₹ 4,500</h1>
+      <h2>Night</h2>
+      <p><FaWifi className="icon" /> Wifi Included</p>
+      <p><PiNumberFourBold className="icon" /> 4 members Allowed</p>
+      <p><LuBed className="icon" /> Duo Delight Retreats</p>
+      <div className="buttons">
+        <button className="button book-now"><FaRegCalendarCheck className="icon" /> Book Now</button>
+        <button className="button more-info"><FaWhatsapp className="icon" /> Contact Us</button>
+      </div>
+    </div>
+
     </>
   );
 }

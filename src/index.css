@@ -525,3 +525,73 @@ background-color:  rgb(70, 82, 38) ;
   object-fit: cover;
   border-radius: 20px;
 }
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+ width: 300px;
+  height: 500px;
+  text-align: center;
+float: right;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 120px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+ background-color: #eceaea;
+}
+.card h1  {
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: rgb(61, 71, 29);
+ 
+}
+.card h2 {
+  margin-top: 0;
+  font-size: 25px;
+  
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: rgb(61, 71, 29);
+}
+.card p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: rgb(61, 71, 29);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon {
+  margin-right: 8px;
+}
+.button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+.book-now {
+  background-color: rgb(61, 71, 29);
+  color: white;
+  display: flex;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.more-info {
+  background-color: #f5f8f6;
+  color: black;
+  display: flex;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
