@@ -335,6 +335,12 @@ background-color:  rgb(70, 82, 38) ;
   margin-top: 100px;
   font-family: 'Poppins', sans-serif;
 }
+.familyphotos{
+  margin-top: 20px;
+  width: 1000px;
+  height: 300px;
+  margin-left: 150px;
+}
 
 .Imagerest{
   margin-left: 50px;
@@ -477,4 +483,12 @@ background-color:  rgb(70, 82, 38) ;
 .restaurantimage{
   margin-left: 60px;
  border-radius: 20px;
+}
+.resttax1{
+  font-size: xx-large;
+  font-weight: 800;
+  color: rgb(61, 71, 29);
+  font-family: 'Poppins', sans-serif;
+  margin-top: 70px;
+  margin-left: 50px;
 }

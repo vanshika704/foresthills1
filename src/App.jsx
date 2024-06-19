@@ -7,6 +7,9 @@ import Rooms from './pages/Rooms';
 import About from './pages/About';
 import GaLLery from './pages/Gallery';
 
+import Friends from './pages/Friends';
+import Couple from './pages/Couple';
+
 function App() {
   return (
     <Router>
@@ -18,6 +21,10 @@ function App() {
           <Route path="/rooms" element={<Rooms />} />
           <Route path="/gallery" element={<GaLLery/>} />
           <Route path="/about" element={<About />} />
+       
+<Route path="/friends" element={<Friends/>}/>
+<Route path="/couple" element={<Couple/>}></Route>
+          
         </Routes>
       </div>
     </Router>

@@ -5,11 +5,8 @@ import { IoMdHeart } from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import '../index.css'; // Assuming you have some custom CSS for the classes used
 import { Grid, GridItem } from '@chakra-ui/react';
-
-function Rooms() {
-  return (
-    <>
-      <div className="navbar1">
+function Friends(){
+    return(<> <div className="navbar1">
         <Tabs position="relative" variant="unstyled" height={5} width={70}>
           <TabList>
             <Tab as={Link} to="/" className="tab-item" paddingY={1} paddingX={3}>
@@ -59,10 +56,9 @@ function Rooms() {
           <TabIndicator mt="-1.5px" height="2px" width="calc(100% / 3)" bg="green.500" borderRadius="1px" />
         </Tabs>
       </div>
-
-      <div className='resttax1'>Family Delux Room</div>
+      <div className='resttax1'>Friends Deluxe Room (3 Rooms)</div>
       <div className='familyphotos'>
-        <Grid
+         <Grid
           h="400px"
           templateRows="repeat(2, 1fr)"
           templateColumns="repeat(4, 1fr)"
@@ -73,10 +69,6 @@ function Rooms() {
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
           <GridItem borderRadius={20} colSpan={1} rowSpan={1} bg="papayawhip" />
-        </Grid>
-      </div>
-    </>
-  );
+        </Grid></div></>)
 }
-
-export default Rooms;
+export default Friends;
